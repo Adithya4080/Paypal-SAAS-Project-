@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 100px;
+  z-index: 10;
+}
+nav h1 {
+  width: 100%;
+}
+nav h1 img {
+  width: 50%;
+}
+nav .nav-links ul {
+  display: flex;
+}
+nav .nav-links ul li {
+  font-size: larger;
+}
+nav .nav-links ul li a {
+  color: rgb(0, 0, 0);
+  margin-right: 50px;
+}
+nav .btn, nav .super-btn {
+  padding: 15px 30px;
+  border: 1px solid blue;
+  cursor: pointer;
+  border-radius: 40%;
+  color: blue;
+  margin-right: 20px;
+  font-size: large;
+}
+nav .super-btn {
+  background-color: rgb(0, 94, 166);
+  color: white;
+}
+
+#spotlight {
+  background-color: #029CE0;
+  height: 630px;
+}
+#spotlight .details {
+  text-align: center;
+  padding-top: 120px;
+}
+#spotlight .details h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+}
+#spotlight .details .btn1 {
+  margin-top: 20px;
+  padding: 20px 90px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #02387B;
+}
+#spotlight .img-cont img {
+  width: 100%;
+  text-align: center;
+  max-height: 200px;
+  margin-top: 80px;
+}
+
+#banner {
+  background-color: #02387B;
+  text-align: center;
+  padding: 10px 0;
+}
+#banner p {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 200;
+}
+#banner .btn2 {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  color: #02387B;
+  font-size: large;
+}
+
+#services {
+  text-align: center;
+}
+#services .sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#services .sec1 .row {
+  padding-right: 200px;
+  justify-content: left;
+}
+#services .sec1 .row h2 {
+  color: #029CE0;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#services .sec1 .row p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+#services .sec1 .row .btn3 {
+  border: 1px solid #02387B;
+  color: #02387B;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 150px;
+}
+#services .sec1 .row .btn3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#services .sec1 .img-cont1 img {
+  width: 350px;
+  height: 350px;
+}
+
+#ad {
+  text-align: center;
+  margin: 20px;
+}
+#ad p {
+  color: #029CE0;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#ad .ad-img img {
+  margin-right: 30px;
+}
+
+#signup {
+  background-color: #029CE0;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+#signup p {
+  color: white;
+  font-size: 40px;
+}
+#signup .btn4 {
+  margin-top: 40px;
+  padding: 10px 90px;
+  border: none;
+  border-radius: 20px;
+  font-size: larger;
+  color: #02387B;
+}
+
+.tc {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  padding-left: 15%;
+  line-height: 1.5;
+}
+
+footer {
+  padding: 0 15%;
+}
+footer .top {
+  margin-bottom: 30px;
+}
+footer .top ul {
+  display: flex;
+}
+footer .top ul li {
+  margin-right: 25px;
+}
+footer .top ul a {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: bolder;
+}
+footer .middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer .middle .mid-left ul li {
+  display: inline-block;
+}
+footer .middle .mid-left ul li a {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #414141;
+  font-weight: bolder;
+}
+footer .middle .mid-right ul li {
+  display: inline-block;
+}
+footer .middle .mid-right ul li a {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #414141;
+  font-weight: bolder;
+}
+footer .bottom {
+  color: #687173;
+}
+footer .bottom .bottom-top {
+  margin-bottom: 20px;
+}
+footer .bottom .bottom-top p {
+  font-size: medium;
+  font-weight: 800;
+}
+footer .bottom .bottom-top p a {
+  color: #02387B;
+  font-weight: bolder;
+}
+footer .bottom .bottom-down {
+  margin-bottom: 10px;
+}
+footer .bottom .bottom-down small {
+  font-size: 14px;
+  font-weight: 800;
+}
+footer .bottom .bottom-down small a {
+  color: #02387B;
+  font-weight: bolder;
+}/*# sourceMappingURL=style.css.map */
