@@ -35,7 +35,7 @@ nav .btn, nav .super-btn {
   padding: 15px 30px;
   border: 1px solid blue;
   cursor: pointer;
-  border-radius: 40%;
+  border-radius: 20px;
   color: blue;
   margin-right: 20px;
   font-size: large;
